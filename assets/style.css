@@ -5,6 +5,7 @@ body {
 * {
 	font-family: 'Inter';
 	font-style: normal;
+	font-display: swap;
 }
 .top-header {
 	background-color: white;
@@ -40,6 +41,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -91,6 +93,7 @@ body {
 }
 
 #gallery {
+	min-height: 500px;
 	/*	min-height: 100vh; */
 }
 .title{
@@ -101,7 +104,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -125,7 +128,10 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	
 }
+
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -242,6 +248,11 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
 
 @media all and (max-width: 1180px) {
