@@ -44,6 +44,9 @@ body {
 	height: 20px;
 }
 
+.visually-hidden{
+	background-color: #000;
+}
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -90,6 +93,7 @@ body {
 #about-me p {
 	width: 80%;
 	font-size: 14px;
+	
 }
 
 #gallery {
